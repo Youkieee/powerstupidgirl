@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Food Recommendations</title>
+    <style>
+        /* This section styles the page to make it look nice */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 40px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .food-card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+            width: 220px;
+            padding: 25px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .food-card:hover {
+            transform: translateY(-5px); /* Adds a little "jump" effect when you hover over a card */
+        }
+        .food-card h2 {
+            color: #e67e22;
+            margin: 10px 0 5px 0;
+            font-size: 1.5rem;
+        }
+        .food-card h3 {
+            color: #34495e;
+            margin: 0 0 15px 0;
+            font-size: 1.1rem;
+        }
+        .food-card p {
+            color: #7f8c8d;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin: 0;
+        }
+        .emoji {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🌎 Best Food Recommendations from 4 Countries</h1>
+
+    <div class="container">
+        
+        <div class="food-card">
+            <div class="emoji">🍕</div>
+            <h2>Italy</h2>
+            <h3>Pizza Margherita</h3>
+            <p>A classic Neapolitan pizza with tomatoes, fresh mozzarella cheese, basil, and extra virgin olive oil. Simple but absolutely perfect!</p>
+        </div>
+
+        <div class="food-card">
+            <div class="emoji">🍣</div>
+            <h2>Japan</h2>
+            <h3>Sushi</h3>
+            <p>Vinegared rice paired with a variety of ingredients, most commonly fresh, raw seafood. A true culinary art form.</p>
+        </div>
+
+        <div class="food-card">
+            <div class="emoji">🌮</div>
+            <h2>Mexico</h2>
+            <h3>Tacos al Pastor</h3>
+            <p>Delicious corn tortillas filled with marinated, spit-roasted pork, topped with pineapple, diced onions, and fresh cilantro.</p>
+        </div>
+
+        <div class="food-card">
+            <div class="emoji">🍛</div>
+            <h2>India</h2>
+            <h3>Butter Chicken</h3>
+            <p>Tender chicken marinated in yogurt and spices, cooked in a rich, creamy, and mildly spicy tomato gravy. Best served with naan!</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
